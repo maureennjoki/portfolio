@@ -1,0 +1,41 @@
+/*This is the base css file*/
+nav {
+    background-color:beige (0, 7, 0, 0.966);
+    height: 50PX;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    opacity: 0.8;
+}
+nav-link {
+    color: blanchedalmond(49, 14, 248);
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    margin: 0 0.5em;
+    border: 0.1em (5, 202, 71);
+    padding: 0.2em ;
+    transition: ease-out 1s all;
+    
+}
+.nav-link:hover {
+background-color: aliceblue;
+color: orange;
+}
+footer{
+    background-color: rgba(234, 157, 167, 0.966);
+}
+footer a{
+    color:burlywood(0, 0, 0);
+}
+.social{
+    list-style: none;
+     
+}
+
+    
+    
